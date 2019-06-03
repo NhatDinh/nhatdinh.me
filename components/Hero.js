@@ -25,13 +25,10 @@ class Hero extends React.Component {
           <div className="m-container">
             <h1>Hi 👋🏼, I'm Nhat & I'm a Front-End Developer</h1>
             <p>
-              I'm passionate about designing and building beautifully-crafted
-              software applications.
-              <br />
               Sharing about design and engineering makes me very happy 🌈.
               <br />
-              I'm super excited about tech startups and businesses, if your team
-              could use a front end engineer, I'd be very interested ✋.
+              I'm super passionate about tech startups and businesses, if your
+              team could use a front end engineer, I'd be very interested ✋.
             </p>
           </div>
           <div className="mode-wrapper m-container">
