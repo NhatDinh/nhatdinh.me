@@ -28,7 +28,7 @@ class Hero extends React.Component {
               I'm passionate about designing and building beautifully-crafted
               software applications.
               <br />
-              Sharing about design and engineering makes me super happy 🌈.
+              Sharing about design and engineering makes me very happy 🌈.
               <br />
               I'm super excited about tech startups and businesses, if your team
               could use a front end engineer, I'd be very interested ✋.
@@ -36,7 +36,7 @@ class Hero extends React.Component {
           </div>
           <div className="mode-wrapper m-container">
             <button className="action-btn" onClick={this.toggleMode}>
-              DARK MODE
+              💡 MODE
             </button>
           </div>
 
@@ -73,20 +73,46 @@ class Hero extends React.Component {
             height: 100vh;
             width: 100vw;
             display: flex;
+            font-size: 34px;
           }
-          .hero-container h1 {
-            font-size: 50px;
+          .hero-section h1 {
+            font-size: 44px;
             animation: hello-animation 2.5s;
             animation-fill-mode: forwards;
             opacity: 0;
           }
-          @media (max-width: 640px) {
+
+          /* Screen sizes */
+          /* Tablet */
+          @media (max-width: 991px) {
             .hero-section h1 {
-              font-size: 30px;
+              font-size: 38px;
+            }
+
+            .hero-section {
+              font-size: 28px;
+            }
+          }
+
+          /* Mobile - Landscape */
+          @media (max-width: 767px) {
+            .hero-section h1 {
+              font-size: 32px;
             }
 
             .hero-section {
               font-size: 22px;
+            }
+          }
+
+          /* Mobile - Portrait */
+          @media (max-width: 479px) {
+            .hero-section h1 {
+              font-size: 28px;
+            }
+
+            .hero-section {
+              font-size: 18px;
             }
           }
 
