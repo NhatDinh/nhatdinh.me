@@ -14,7 +14,7 @@ class Index extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="body-container">
         <Head>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta charSet="utf-8" />
@@ -32,9 +32,16 @@ class Index extends React.Component {
             font-family: avenir, proxima nova, helvetica neue, Helvetica, Arial,
               sans-serif;
             font-weight: 500;
-            font-size: 32px;
             -webkit-font-smoothing: antialiased;
             height: 1000vh;
+          }
+
+          .body-container h1 {
+            font-size: 44px;
+          }
+
+          .body-container {
+            font-size: 34px;
           }
 
           .dark-mode {
@@ -50,7 +57,6 @@ class Index extends React.Component {
           .format-disabled {
             text-decoration: none;
             list-style: none;
-            color: white;
           }
 
           .hide {
@@ -91,7 +97,6 @@ class Index extends React.Component {
             text-align: center;
             text-decoration: none;
             display: inline-block;
-            font-size: 20px;
             border-radius: 12px;
             transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
             padding: 10px;
@@ -103,6 +108,40 @@ class Index extends React.Component {
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
             transform: translateY(-10px);
             background-color: white;
+          }
+
+          /* Screen sizes */
+          /* Tablet */
+          @media (max-width: 991px) {
+            .body-container h1 {
+              font-size: 34px;
+            }
+
+            .body-container {
+              font-size: 24px;
+            }
+          }
+
+          /* Mobile - Landscape */
+          @media (max-width: 767px) {
+            .body-container h1 {
+              font-size: 30px;
+            }
+
+            .body-container {
+              font-size: 20px;
+            }
+          }
+
+          /* Mobile - Portrait */
+          @media (max-width: 479px) {
+            .body-container h1 {
+              font-size: 36px;
+            }
+
+            .body-container {
+              font-size: 26px;
+            }
           }
         `}</style>
       </div>

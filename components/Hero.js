@@ -25,12 +25,19 @@ class Hero extends React.Component {
           <div className="m-container">
             <h1>Hi 👋🏼, I'm Nhat & I'm a Front-End Developer</h1>
             <p>
-              Sharing about design and engineering makes me very happy 🌈.
+              Sharing about design and engineering makes me very happy 🌈
               <br />
               I'm super passionate about tech startups and businesses, if your
-              team could use a front end engineer, I'd be very interested ✋.
+              team could use a front end engineer, I'd be very interested ✋
             </p>
           </div>
+          <div className="m-container" />
+          <ul className="contact-wrapper">
+            <li className="format-disabled">Twitter </li>
+            <li className="format-disabled"> Github </li>
+            <li className="format-disabled"> Dribble </li>
+            <li className="format-disabled"> LinkedIn </li>
+          </ul>
           <div className="mode-wrapper m-container">
             <button className="action-btn" onClick={this.toggleMode}>
               💡 MODE
@@ -63,54 +70,29 @@ class Hero extends React.Component {
         <style jsx>{`
           .grid {
             display: grid;
-            grid-template-rows: repleat(3, 1fr);
+            grid-template-rows: repleat(4, 1fr);
             grid-gap: 20px;
           }
           .hero-section {
             height: 100vh;
             width: 100vw;
             display: flex;
-            font-size: 34px;
           }
+
           .hero-section h1 {
-            font-size: 44px;
             animation: hello-animation 2.5s;
             animation-fill-mode: forwards;
             opacity: 0;
           }
 
-          /* Screen sizes */
-          /* Tablet */
-          @media (max-width: 991px) {
-            .hero-section h1 {
-              font-size: 38px;
-            }
-
-            .hero-section {
-              font-size: 28px;
-            }
+          .contact-wrapper {
+            display: flex;
+            flex-direction: row;
           }
 
-          /* Mobile - Landscape */
-          @media (max-width: 767px) {
-            .hero-section h1 {
-              font-size: 32px;
-            }
-
-            .hero-section {
-              font-size: 22px;
-            }
-          }
-
-          /* Mobile - Portrait */
-          @media (max-width: 479px) {
-            .hero-section h1 {
-              font-size: 28px;
-            }
-
-            .hero-section {
-              font-size: 18px;
-            }
+          .waves-container {
+            width: 100vw;
+            height: 100px;
           }
 
           @keyframes hello-animation {
