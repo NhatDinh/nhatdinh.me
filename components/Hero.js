@@ -33,10 +33,45 @@ class Hero extends React.Component {
           </div>
           <div className="m-container" />
           <ul className="contact-wrapper">
-            <li className="format-disabled">Twitter </li>
-            <li className="format-disabled"> Github </li>
-            <li className="format-disabled"> Dribble </li>
-            <li className="format-disabled"> LinkedIn </li>
+            <li className="format-disabled">
+              <a
+                className="format-disabled"
+                href="https://twitter.com/nhat_ldinh"
+                target="_blank"
+              >
+                Twitter
+              </a>
+            </li>
+            {" - "}
+            <li className="format-disabled">
+              <a
+                className="format-disabled"
+                href="https://github.com/NhatDinh"
+                target="_blank"
+              >
+                Gihub
+              </a>
+            </li>
+            {" - "}
+            <li className="format-disabled">
+              <a
+                className="format-disabled"
+                href="https://dribbble.com/nhatd"
+                target="_blank"
+              >
+                Dribble
+              </a>
+            </li>
+            {" - "}
+            <li className="format-disabled">
+              <a
+                className="format-disabled"
+                href="https://www.linkedin.com/in/nhat-dinh/"
+                target="_blank"
+              >
+                LinkedIn
+              </a>
+            </li>
           </ul>
           <div className="mode-wrapper m-container">
             <button className="action-btn" onClick={this.toggleMode}>
@@ -88,6 +123,10 @@ class Hero extends React.Component {
           .contact-wrapper {
             display: flex;
             flex-direction: row;
+          }
+
+          .contact-wrapper a {
+            color: rgba(255, 88, 88, 1);
           }
 
           .waves-container {

@@ -34,14 +34,11 @@ class Index extends React.Component {
             font-weight: 500;
             -webkit-font-smoothing: antialiased;
             height: 1000vh;
+            font-size: 30px;
           }
 
-          .body-container h1 {
-            font-size: 44px;
-          }
-
-          .body-container {
-            font-size: 34px;
+          body h1 {
+            font-size: 40px;
           }
 
           .dark-mode {
@@ -95,13 +92,12 @@ class Index extends React.Component {
           .action-btn {
             cursor: pointer;
             text-align: center;
-            text-decoration: none;
-            display: inline-block;
             border-radius: 12px;
             transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
             padding: 10px;
             font-weight: 700;
             border: none;
+            font-size: 20px;
           }
 
           .action-btn:hover {
@@ -113,34 +109,34 @@ class Index extends React.Component {
           /* Screen sizes */
           /* Tablet */
           @media (max-width: 991px) {
-            .body-container h1 {
+            body h1 {
               font-size: 34px;
             }
 
-            .body-container {
+            body {
               font-size: 24px;
             }
           }
 
           /* Mobile - Landscape */
           @media (max-width: 767px) {
-            .body-container h1 {
-              font-size: 30px;
+            body h1 {
+              font-size: 32px;
             }
 
-            .body-container {
-              font-size: 20px;
+            body {
+              font-size: 22px;
             }
           }
 
           /* Mobile - Portrait */
           @media (max-width: 479px) {
             .body-container h1 {
-              font-size: 36px;
+              font-size: 28px;
             }
 
             .body-container {
-              font-size: 26px;
+              font-size: 18px;
             }
           }
         `}</style>
