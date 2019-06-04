@@ -18,12 +18,14 @@ class Hero extends React.Component {
         <div
           className={
             this.state.dark_mode
-              ? "dark-mode grid is-center"
-              : "light-mode grid is-center"
+              ? "dark-mode hero-container is-center"
+              : "light-mode hero-container is-center"
           }
         >
           <div className="m-container">
             <h1>Hi 👋🏼, I'm Nhat & I'm a Front-End Developer</h1>
+          </div>
+          <div className="m-container">
             <p>
               Sharing about design and engineering makes me very happy 🌈
               <br />
@@ -31,52 +33,52 @@ class Hero extends React.Component {
               team could use a front end engineer, I'd be very interested ✋
             </p>
           </div>
-          <div className="m-container" />
-          <ul className="contact-wrapper">
-            <li className="format-disabled">
-              <a
-                className="format-disabled"
-                href="https://twitter.com/nhat_ldinh"
-                target="_blank"
-              >
-                Twitter
-              </a>
-            </li>
-            {" - "}
-            <li className="format-disabled">
-              <a
-                className="format-disabled"
-                href="https://github.com/NhatDinh"
-                target="_blank"
-              >
-                Gihub
-              </a>
-            </li>
-            {" - "}
-            <li className="format-disabled">
-              <a
-                className="format-disabled"
-                href="https://dribbble.com/nhatd"
-                target="_blank"
-              >
-                Dribble
-              </a>
-            </li>
-            {" - "}
-            <li className="format-disabled">
-              <a
-                className="format-disabled"
-                href="https://www.linkedin.com/in/nhat-dinh/"
-                target="_blank"
-              >
-                LinkedIn
-              </a>
-            </li>
-          </ul>
-          <div className="mode-wrapper m-container">
+
+          <div className="m-container">
             <button className="action-btn" onClick={this.toggleMode}>
               💡 MODE
             </button>
+            <ul className="contact-wrapper">
+              <li className="format-disabled">
+                <a
+                  className="format-disabled"
+                  href="https://twitter.com/nhat_ldinh"
+                  target="_blank"
+                >
+                  Twitter
+                </a>
+              </li>
+              {" - "}
+              <li className="format-disabled">
+                <a
+                  className="format-disabled"
+                  href="https://github.com/NhatDinh"
+                  target="_blank"
+                >
+                  Gihub
+                </a>
+              </li>
+              {" - "}
+              <li className="format-disabled">
+                <a
+                  className="format-disabled"
+                  href="https://dribbble.com/nhatd"
+                  target="_blank"
+                >
+                  Dribble
+                </a>
+              </li>
+              {" - "}
+              <li className="format-disabled">
+                <a
+                  className="format-disabled"
+                  href="https://www.linkedin.com/in/nhat-dinh/"
+                  target="_blank"
+                >
+                  LinkedIn
+                </a>
+              </li>
+            </ul>
           </div>
 
           <div className="waves-container">
@@ -103,11 +105,11 @@ class Hero extends React.Component {
           </div>
         </div>
         <style jsx>{`
-          .grid {
+          .hero-container {
             display: grid;
-            grid-template-rows: repleat(4, 1fr);
-            grid-gap: 20px;
+            grid-template-rows: repeat(4, 1fr);
           }
+
           .hero-section {
             height: 100vh;
             width: 100vw;
@@ -123,6 +125,7 @@ class Hero extends React.Component {
           .contact-wrapper {
             display: flex;
             flex-direction: row;
+            padding: 0;
           }
 
           .contact-wrapper a {
@@ -131,7 +134,7 @@ class Hero extends React.Component {
 
           .waves-container {
             width: 100vw;
-            height: 100px;
+            height: 20vh;
           }
 
           @keyframes hello-animation {
