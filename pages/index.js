@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 
 //components
+import ProjectCard from "../components/ProjectCard";
 import Hero from "../components/Hero";
 
 class Index extends React.Component {
@@ -25,6 +26,7 @@ class Index extends React.Component {
           />
         </Head>
         <Hero />
+        <ProjectCard />
         <style global jsx>{`
           body {
             margin: 0;
@@ -35,6 +37,7 @@ class Index extends React.Component {
             -webkit-font-smoothing: antialiased;
             font-size: 30px;
             background-color: #f7f7fc;
+            height: 1000vh;
           }
 
           body h1 {
@@ -83,9 +86,20 @@ class Index extends React.Component {
             padding: 0px 100px;
           }
 
-          .is-center {
+          //centering
+          .both-center {
             display: flex;
             justify-content: center;
+            align-items: center;
+          }
+
+          .horizontal-center {
+            display: flex;
+            justify-content: center;
+          }
+
+          .vertical-center {
+            display: flex;
             align-items: center;
           }
 
