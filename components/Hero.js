@@ -27,7 +27,7 @@ class Hero extends React.Component {
           </div>
           <div className="m-container">
             <p>
-              Sharing about design and engineering makes me very happy 😊
+              Sharing about design and engineering makes me very happy 🌈
               <br />
               I'm super passionate about tech startups and businesses, if your
               team could use a front end engineer, I'd be very interested ✋
