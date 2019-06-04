@@ -33,7 +33,6 @@ class Index extends React.Component {
               sans-serif;
             font-weight: 500;
             -webkit-font-smoothing: antialiased;
-            height: 1000vh;
             font-size: 30px;
           }
 
