@@ -110,12 +110,6 @@ class Hero extends React.Component {
             grid-template-rows: repeat(4, 1fr);
           }
 
-          .hero-section {
-            height: 100vh;
-            width: 100vw;
-            display: flex;
-          }
-
           .hero-section h1 {
             animation: hello-animation 2.5s;
             animation-fill-mode: forwards;
@@ -134,7 +128,7 @@ class Hero extends React.Component {
 
           .waves-container {
             width: 100vw;
-            height: 20vh;
+            height: 100px;
           }
 
           @keyframes hello-animation {

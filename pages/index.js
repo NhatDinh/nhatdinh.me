@@ -34,6 +34,7 @@ class Index extends React.Component {
             font-weight: 500;
             -webkit-font-smoothing: antialiased;
             font-size: 30px;
+            background-color: #f7f7fc;
           }
 
           body h1 {
