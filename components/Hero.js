@@ -38,7 +38,7 @@ class Hero extends React.Component {
             <button className="action-btn" onClick={this.toggleMode}>
               💡 MODE
             </button>
-            <ul className="contact-wrapper">
+            <ul className="links-wrapper">
               <li className="format-disabled">
                 <a
                   className="format-disabled"
@@ -116,16 +116,7 @@ class Hero extends React.Component {
             opacity: 0;
           }
 
-          .contact-wrapper {
-            display: flex;
-            flex-direction: row;
-            padding: 0;
-          }
-
-          .contact-wrapper a {
-            color: rgba(255, 88, 88, 1);
-          }
-
+          
           .waves-container {
             width: 100vw;
             height: 100px;

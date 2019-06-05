@@ -7,13 +7,36 @@ class ProjectCard extends React.Component {
 
   render() {
     return (
-      <div className="m-container card-container">
+      <div className="sm-container card-container">
         <h1>Sales Metrics</h1>
         <p>
           Analytics dashboard app to let software businesses visualize their
           sales data. Companies can upload a public Google Sheet to visualize
           meaningful data about their business.
         </p>
+        <h4 className="horizontal-center">
+          <ul className="links-wrapper">
+            <li className="format-disabled">
+              <a
+                className="format-disabled"
+                href="https://salesmetrics-71cb5.firebaseapp.com"
+                target="_blank"
+              >
+                Live
+              </a>
+            </li>{" "}
+            -{" "}
+            <li className="format-disabled">
+              <a
+                className="format-disabled"
+                href="https://github.com/NhatDinh/salesmetrics"
+                target="_blank"
+              >
+                Code
+              </a>
+            </li>
+          </ul>
+        </h4>
         <div className="gif-wrapper is-center">
           <img src="../static/salesmetrics.gif" alt="my image" />
         </div>

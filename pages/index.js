@@ -120,6 +120,18 @@ class Index extends React.Component {
             background-color: white;
           }
 
+          .links-wrapper {
+            display: flex;
+            flex-direction: row;
+            padding: 0;
+          }
+
+          .links-wrapper a {
+            color: rgba(255, 88, 88, 1);
+            padding-right: 5px;
+            padding-left: 5px;
+          }
+
           /* Screen sizes */
           /* Tablet */
           @media (max-width: 991px) {
