@@ -9,34 +9,27 @@ class ProjectCard extends React.Component {
     return (
       <div className="m-container card-container">
         <h1>Sales Metrics</h1>
-        <div className="details-container">
-          <div className="details-wrapper">
-            <p>
-              Analytics dashboard app to let software businesses visualize their
-              sales data. Companies can upload a public Google Sheet to
-              visualize meaningful data about their business.
-              <ul>
-                <li>
-                  App built using ReactJS, HTML5, CSS3, SCSS, ApexCharts,
-                  Firebase, Figma, Git.
-                </li>
-                <li>Free for personal use. </li>
-              </ul>
-            </p>
-          </div>
-          <div className="gif-wrapper horizontal-center">
-            <img src="../static/salesmetrics.gif" alt="my image" />
-          </div>
+        <p>
+          Analytics dashboard app to let software businesses visualize their
+          sales data. Companies can upload a public Google Sheet to visualize
+          meaningful data about their business.
+        </p>
+        <div className="gif-wrapper is-center">
+          <img src="../static/salesmetrics.gif" alt="my image" />
+        </div>
+        <div className="details-wrapper">
+          <ul>
+            <li>
+              App built using ReactJS, HTML5, CSS3, SCSS, ApexCharts, Firebase,
+              Figma, Git.
+            </li>
+            <li>Free for personal use. </li>
+          </ul>
         </div>
         <style global jsx>{`
           .card-container {
-            display: grid;
-            grid-template-rows: 0.2fr 2fr;
-          }
-
-          .details-container {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
+            display: flex;
+            flex-direction: column;
           }
 
           .card-container h1 {
@@ -45,7 +38,7 @@ class ProjectCard extends React.Component {
             text-align: center;
           }
 
-          .card-container p {
+          .card-container {
             font-size: 22px;
             color: black;
           }
@@ -53,6 +46,45 @@ class ProjectCard extends React.Component {
           .gif-wrapper img {
             width: 80%;
             height: 100%;
+          }
+
+          /* Screen sizes */
+          /* Tablet */
+          @media (max-width: 991px) {
+            .card-container h1 {
+              font-size: 34px;
+            }
+
+            .card-container {
+              font-size: 24px;
+            }
+
+            .details-container {
+              display: flex;
+              flex-direction: rows;
+            }
+          }
+
+          /* Mobile - Landscape */
+          @media (max-width: 767px) {
+            .card-container h1 {
+              font-size: 32px;
+            }
+
+            .card-container {
+              font-size: 22px;
+            }
+          }
+
+          /* Mobile - Portrait */
+          @media (max-width: 479px) {
+            .card-container h1 {
+              font-size: 28px;
+            }
+
+            .card-container {
+              font-size: 18px;
+            }
           }
         `}</style>
       </div>

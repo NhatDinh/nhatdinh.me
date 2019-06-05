@@ -87,7 +87,7 @@ class Index extends React.Component {
           }
 
           //centering
-          .both-center {
+          .is-center {
             display: flex;
             justify-content: center;
             align-items: center;
