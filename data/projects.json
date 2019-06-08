@@ -1,0 +1,32 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "name": "Sales Metrics",
+      "gif": "https://static-kkb4423oq.now.sh/salesmetrics.gif",
+      "links": [
+        { "live": "https://salesmetrics-71cb5.firebaseapp.com" },
+        { "code": "https://github.com/NhatDinh/salesmetrics" }
+      ],
+      "features": [
+        "App built using ReactJS, HTML5, CSS3, SCSS, ApexCharts, Firebase,\nFigma, Git.",
+        "Free for personal use."
+      ],
+      "description": "Analytics dashboard app to let software businesses visualize their\nsales data. Companies can upload a public Google Sheet to visualize\nmeaningful data about their business."
+    },
+    {
+      "id": "2",
+      "name": "Sales and Pricing page for AI startup",
+      "gif": "../static/pricing-sales.gif",
+      "links": {
+        "live": "https://nextjs.nhatldinh.now.sh/Pricing",
+        "code": "https://github.com/NhatDinh/scale-nextjs"
+      },
+      "features": [
+        "App built using NextJS, HTML5, CSS3, SCC, Zeit, Figma, Git",
+        "Proof of concept"
+      ],
+      "description": "Pricing and Sales page for an AI starup based on their existing products."
+    }
+  ]
+}

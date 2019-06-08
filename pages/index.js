@@ -4,6 +4,9 @@ import Head from "next/head";
 //components
 import ProjectCard from "../components/ProjectCard";
 import Hero from "../components/Hero";
+import Projects from "../components/Projects";
+
+//import data
 
 class Index extends React.Component {
   constructor(props) {
@@ -26,7 +29,7 @@ class Index extends React.Component {
           />
         </Head>
         <Hero />
-        <ProjectCard />
+        <Projects />
         <style global jsx>{`
           body {
             margin: 0;
