@@ -5,21 +5,21 @@ class ProjectCard extends React.Component {
     super(props);
   }
 
+  componentDidlMount() {
+    console.log("props: ", this.props.links);
+  }
+
   render() {
     return (
       <div className="sm-container card-container">
-        <h1>Sales Metrics</h1>
-        <p>
-          Analytics dashboard app to let software businesses visualize their
-          sales data. Companies can upload a public Google Sheet to visualize
-          meaningful data about their business.
-        </p>
+        <h1>{this.props.title}</h1>
+        <p>{this.props.description}</p>
         <h4 className="horizontal-center">
           <ul className="links-wrapper">
             <li className="format-disabled">
               <a
                 className="format-disabled"
-                href="https://salesmetrics-71cb5.firebaseapp.com"
+                href={this.props.links.live}
                 target="_blank"
               >
                 Live
@@ -29,7 +29,7 @@ class ProjectCard extends React.Component {
             <li className="format-disabled">
               <a
                 className="format-disabled"
-                href="https://github.com/NhatDinh/salesmetrics"
+                href={this.props.links.code}
                 target="_blank"
               >
                 Code
@@ -38,15 +38,13 @@ class ProjectCard extends React.Component {
           </ul>
         </h4>
         <div className="gif-wrapper is-center">
-          <img src="../static/salesmetrics.gif" alt="my image" />
+          <img src={this.props.gif} alt="my image" />
         </div>
         <div className="details-wrapper">
           <ul>
-            <li>
-              App built using ReactJS, HTML5, CSS3, SCSS, ApexCharts, Firebase,
-              Figma, Git.
-            </li>
-            <li>Free for personal use. </li>
+            {this.props.features.map((feature, index) => (
+              <li key={index}>{feature}</li>
+            ))}
           </ul>
         </div>
         <style global jsx>{`
@@ -55,6 +53,7 @@ class ProjectCard extends React.Component {
             flex-direction: column;
             border-bottom: 2px solid black;
             border-top: 2px solid black;
+            padding-bottom: 20px;
           }
 
           .card-container h1 {

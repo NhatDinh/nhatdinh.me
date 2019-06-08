@@ -116,7 +116,6 @@ class Hero extends React.Component {
             opacity: 0;
           }
 
-          
           .waves-container {
             width: 100vw;
             height: 100px;
