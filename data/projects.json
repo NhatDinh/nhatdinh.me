@@ -23,10 +23,24 @@
         "code": "https://github.com/NhatDinh/scale-nextjs"
       },
       "features": [
-        "App built using NextJS, HTML5, CSS3, SCC, Zeit, Figma, Git",
-        "Proof of concept"
+        "App built using NextJS, HTML5, CSS3, SCC, Zeit, Figma, Git.",
+        "Proof of concept."
       ],
       "description": "Pricing and Sales page for an AI starup based on their existing products."
+    },
+    {
+      "id": "3",
+      "name": "Novice Chef Recipe App",
+      "gif": "../static/pricing-sales.gif",
+      "links": {
+        "live": "https://novice-chef.herokuapp.com/",
+        "code": "https://github.com/NhatDinh/NoviceChef"
+      },
+      "features": [
+        "App built using HTML5, CSS3, ReactJS, Heroku, Figma, Git.",
+        "Free for personal use."
+      ],
+      "description": "First try at Entrepreneurship, built and launched a single page app for foodies to search for recipes, turn it into a checklist and never again forget any ingredients when shopping for groceries."
     }
   ]
 }
