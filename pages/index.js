@@ -44,14 +44,26 @@ class Index extends React.Component {
             font-size: 40px;
           }
 
+          body a {
+            color: black;
+          }
+
           .dark-mode {
             background-color: rgba(98, 206, 161, 1);
             color: white;
           }
 
+          .dark-mode a {
+            color: rgba(143, 0, 255, 0.6);
+          }
+
           .light-mode {
             background-color: rgba(98, 206, 161, 0.2);
             color: black;
+          }
+
+          .light-mode a {
+            color: rgba(143, 0, 255, 1);
           }
 
           .format-disabled {
@@ -127,7 +139,6 @@ class Index extends React.Component {
           }
 
           .links-wrapper a {
-            color: rgba(255, 88, 88, 1);
             padding-right: 5px;
             padding-left: 5px;
           }

@@ -53,6 +53,8 @@ class ProjectCard extends React.Component {
           .card-container {
             display: flex;
             flex-direction: column;
+            border-bottom: 2px solid black;
+            border-top: 2px solid black;
           }
 
           .card-container h1 {
@@ -69,6 +71,10 @@ class ProjectCard extends React.Component {
           .gif-wrapper img {
             width: 80%;
             height: 100%;
+          }
+
+          .links-wrapper a {
+            color: rgba(143, 0, 255, 1);
           }
 
           /* Screen sizes */
