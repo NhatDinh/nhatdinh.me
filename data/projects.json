@@ -4,10 +4,10 @@
       "id": "1",
       "name": "Sales Metrics",
       "gif": "https://static-kkb4423oq.now.sh/salesmetrics.gif",
-      "links": [
-        { "live": "https://salesmetrics-71cb5.firebaseapp.com" },
-        { "code": "https://github.com/NhatDinh/salesmetrics" }
-      ],
+      "links": {
+        "live": "https://salesmetrics-71cb5.firebaseapp.com",
+        "code": "https://github.com/NhatDinh/salesmetrics"
+      },
       "features": [
         "App built using ReactJS, HTML5, CSS3, SCSS, ApexCharts, Firebase,\nFigma, Git.",
         "Free for personal use."

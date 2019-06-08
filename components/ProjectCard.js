@@ -69,7 +69,7 @@ class ProjectCard extends React.Component {
           }
 
           .gif-wrapper img {
-            width: 80%;
+            width: 90%;
             height: 100%;
           }
 
