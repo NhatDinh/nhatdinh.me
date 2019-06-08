@@ -17,7 +17,7 @@
     {
       "id": "2",
       "name": "Sales and Pricing page for AI startup",
-      "gif": "../static/pricing-sales.gif",
+      "gif": "https://static-kwkivbrgu.now.sh/pricing-sales.gif",
       "links": {
         "live": "https://nextjs.nhatldinh.now.sh/Pricing",
         "code": "https://github.com/NhatDinh/scale-nextjs"
@@ -31,7 +31,7 @@
     {
       "id": "3",
       "name": "Novice Chef Recipe App",
-      "gif": "../static/novice-chef.gif",
+      "gif": "https://static-kwkivbrgu.now.sh/novice-chef.gif",
       "links": {
         "live": "https://novice-chef.herokuapp.com/",
         "code": "https://github.com/NhatDinh/NoviceChef"
