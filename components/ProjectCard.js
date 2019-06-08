@@ -52,8 +52,9 @@ class ProjectCard extends React.Component {
             display: flex;
             flex-direction: column;
             border-bottom: 2px solid black;
-            border-top: 2px solid black;
             padding-bottom: 20px;
+            padding-bottom: 0 0 30px 0;
+            margin: 0;
           }
 
           .card-container h1 {

@@ -31,13 +31,13 @@
     {
       "id": "3",
       "name": "Novice Chef Recipe App",
-      "gif": "../static/pricing-sales.gif",
+      "gif": "../static/novice-chef.gif",
       "links": {
         "live": "https://novice-chef.herokuapp.com/",
         "code": "https://github.com/NhatDinh/NoviceChef"
       },
       "features": [
-        "App built using HTML5, CSS3, ReactJS, Heroku, Figma, Git.",
+        "App built using ReactJS, HTML5, CSS3, Heroku, Figma, Git.",
         "Free for personal use."
       ],
       "description": "First try at Entrepreneurship, built and launched a single page app for foodies to search for recipes, turn it into a checklist and never again forget any ingredients when shopping for groceries."
