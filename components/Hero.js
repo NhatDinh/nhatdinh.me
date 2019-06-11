@@ -55,7 +55,7 @@ class Hero extends React.Component {
                   href="https://github.com/NhatDinh"
                   target="_blank"
                 >
-                  Gihub
+                  Github
                 </a>
               </li>
               {" - "}
