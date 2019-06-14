@@ -11,54 +11,52 @@ class ProjectCard extends React.Component {
 
   render() {
     return (
-      <div className="lg-container ">
-        <div className="card-container">
-          <h1>{this.props.title}</h1>
-          <p>{this.props.description}</p>
-          <h4 className="horizontal-center">
-            <ul className="links-wrapper">
-              <li className="format-disabled">
-                <a
-                  className="format-disabled"
-                  href={this.props.links.live}
-                  target="_blank"
-                >
-                  Live
-                </a>
-              </li>{" "}
-              -{" "}
-              <li className="format-disabled">
-                <a
-                  className="format-disabled"
-                  href={this.props.links.code}
-                  target="_blank"
-                >
-                  Code
-                </a>
-              </li>
-            </ul>
-          </h4>
-          <div className="gif-wrapper is-center">
-            <img src={this.props.gif} alt="my image" />
-          </div>
-          <div className="details-wrapper">
-            <ul>
-              {this.props.features.map((feature, index) => (
-                <li key={index}>{feature}</li>
-              ))}
-            </ul>
-          </div>
+      <div className="card-container">
+        <h1>{this.props.title}</h1>
+        <p>{this.props.description}</p>
+        <h4 className="horizontal-center">
+          <ul className="links-wrapper">
+            <li className="format-disabled">
+              <a
+                className="format-disabled"
+                href={this.props.links.live}
+                target="_blank"
+              >
+                Live
+              </a>
+            </li>{" "}
+            -{" "}
+            <li className="format-disabled">
+              <a
+                className="format-disabled"
+                href={this.props.links.code}
+                target="_blank"
+              >
+                Code
+              </a>
+            </li>
+          </ul>
+        </h4>
+        <div className="gif-wrapper is-center">
+          <img src={this.props.gif} alt="my image" />
+        </div>
+        <div className="details-wrapper">
+          <ul>
+            {this.props.features.map((feature, index) => (
+              <li key={index}>{feature}</li>
+            ))}
+          </ul>
         </div>
         <style global jsx>{`
           .card-container {
             display: flex;
             flex-direction: column;
             padding: 30px;
-            box-shadow: 5px 5px 20px #cfcfcf;
-            margin: 30px;
+            box-shadow: 2px 10px 10px #646464;
             border-radius: 20px;
             background-color: #f7f7fc;
             line-height: 1.5;
+            margin-bottom: 30px;
           }
 
           .card-container h1 {

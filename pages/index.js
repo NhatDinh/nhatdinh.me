@@ -29,7 +29,7 @@ class Index extends React.Component {
           />
         </Head>
         <Hero />
-        <Projects />
+        <Projects mode="dark" />
         <style global jsx>{`
           body {
             margin: 0;
@@ -43,6 +43,7 @@ class Index extends React.Component {
           }
 
           body ul {
+            margin: 0;
             padding: 0;
           }
 
@@ -95,9 +96,11 @@ class Index extends React.Component {
           .animated-transition {
             transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
           }
+
           .lg-container {
             padding: 0px 20px;
           }
+
           .m-container {
             padding: 0px 40px;
           }
