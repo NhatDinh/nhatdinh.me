@@ -23,21 +23,7 @@ class Hero extends React.Component {
           }
         >
           <div className="m-container">
-            <h1>Hi 👋🏼, I'm Nhat & I'm a Front-End Developer</h1>
-          </div>
-          <div className="m-container">
-            <p>
-              Sharing about design and engineering makes me very happy 🌈
-              <br />
-              I'm super passionate about tech startups and businesses, if your
-              team could use a front end engineer, I'd be very interested ✋
-            </p>
-          </div>
-
-          <div className="m-container">
-            <button className="action-btn" onClick={this.toggleMode}>
-              💡 MODE
-            </button>
+            <h1>Hi 👋🏼, I'm Nhat & I'm a Front-End Engineer</h1>
             <ul className="links-wrapper">
               <li className="format-disabled">
                 <a
@@ -79,6 +65,23 @@ class Hero extends React.Component {
                 </a>
               </li>
             </ul>
+          </div>
+          <div className="m-container">
+            <p>
+              I'm always building and launching things on the Web 🚀 <br />
+              with Javascript (React, Vue, Next), HTML5, CSS3 (SCSS, Stylus),
+              and Firebase BaaS.
+            </p>
+          </div>
+
+          <div className="m-container">
+            <p>
+              If your team could use a Front-End Engineer, I'd be very
+              interested ✋
+            </p>
+            <button className="action-btn" onClick={this.toggleMode}>
+              💡 MODE
+            </button>
           </div>
 
           <div className="waves-container">

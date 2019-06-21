@@ -66,7 +66,7 @@ class Index extends React.Component {
 
           .light-mode {
             background-color: rgba(98, 206, 161, 0.2);
-            color: black;
+            color: rgba(26, 26, 26, 1);
           }
 
           .light-mode a {
