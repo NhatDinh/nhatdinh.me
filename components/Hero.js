@@ -69,8 +69,8 @@ class Hero extends React.Component {
           <div className="m-container">
             <p>
               I'm always building and launching things on the Web 🚀 <br />
-              with Javascript (React, Vue, Next, Node), HTML5, CSS3 (SCSS,
-              SASSS, Stylus) and Firebase BaaS.
+              with Javascript (React, Vue, Next, Node), HTML5, CSS3 (SASSS,
+              Stylus) and Firebase BaaS.
             </p>
           </div>
 
