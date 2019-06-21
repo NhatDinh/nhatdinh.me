@@ -111,6 +111,7 @@ class Hero extends React.Component {
           .hero-container {
             display: grid;
             grid-template-rows: repeat(4, 1fr);
+            height: 100vh;
           }
 
           .hero-section h1 {
