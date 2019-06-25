@@ -68,7 +68,10 @@ class Hero extends React.Component {
           </div>
           <div className="m-container">
             <p>
-              I'm always building and launching things on the Web 🚀 <br />
+              I use practical design tactics to build performant and beautiful
+              <span> form interfaces</span>, <span>data-driven dashboards</span>
+              , <span>marketing sites</span>
+              ,... <br />
               with Javascript (React, Vue, Next, Node), HTML5, CSS3 (SASS,
               Stylus) and Firebase BaaS.
             </p>
@@ -76,8 +79,8 @@ class Hero extends React.Component {
 
           <div className="m-container">
             <p>
-              If your team could use a Front-End Engineer, I'd be very
-              interested ✋
+              If your team could use a <span>Front-End Engineer</span>, I'd be
+              very interested ✋
             </p>
             <button className="action-btn" onClick={this.toggleMode}>
               💡 MODE
@@ -114,6 +117,9 @@ class Hero extends React.Component {
             height: 100vh;
           }
 
+          .hero-container span {
+            color: rgba(143, 0, 255, 0.8);
+          }
           .hero-section h1 {
             animation: hello-animation 2.5s;
             animation-fill-mode: forwards;

@@ -70,7 +70,7 @@ class Index extends React.Component {
           }
 
           .light-mode a {
-            color: rgba(143, 0, 255, 1);
+            color: rgba(143, 0, 255, 0.6);
           }
 
           .format-disabled {
