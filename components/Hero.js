@@ -73,8 +73,8 @@ class Hero extends React.Component {
               <span>complex forms interfaces</span>,{" "}
               <span>marketing sites</span>
               ,... <br />
-              with Javascript (React, Vue, Next, Node), HTML5, CSS3 (SASS,
-              Stylus) and Firebase BaaS.
+              with Javascript (React, Vue, Next, Node), semantic HTML5, CSS3
+              (SASS, Styled Components Bootstrap) and Firebase BaaS.
             </p>
           </div>
 
