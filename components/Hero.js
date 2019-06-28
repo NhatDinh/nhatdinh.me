@@ -69,8 +69,9 @@ class Hero extends React.Component {
           <div className="m-container">
             <p>
               I use practical design tactics to build performant and beautiful
-              <span> form interfaces</span>, <span>data-driven dashboards</span>
-              , <span>marketing sites</span>
+              <span> data-driven dashboards </span>,{" "}
+              <span>complex forms interfaces</span>,{" "}
+              <span>marketing sites</span>
               ,... <br />
               with Javascript (React, Vue, Next, Node), HTML5, CSS3 (SASS,
               Stylus) and Firebase BaaS.
